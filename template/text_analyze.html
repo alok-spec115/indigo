@@ -56,8 +56,7 @@
     
     
     <div class="container">
-        <form action="removepunct" method="post">
-          {% csrf_token %}
+        <form action="removepunct" method="post">{% csrf_token %}
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label"><h2>Textutils: Enter your text below</h2></label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" name="text"></textarea>
